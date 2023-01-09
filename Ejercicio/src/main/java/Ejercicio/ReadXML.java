@@ -12,8 +12,7 @@ import org.xml.sax.SAXException;
 
 public class ReadXML {
 	
-	public Document Read() {
-		PropertiesReader reader = new PropertiesReader();
+	public Document Read(PropertiesReader reader) {
 		
 		try {
 
